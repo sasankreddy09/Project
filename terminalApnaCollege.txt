@@ -1,0 +1,71 @@
+ls -> list files (shows all files);
+pwd (print directory folder)->returns the working directory
+cd --> change directory 
+when we want to move back to the folder then cd .. --> one step back
+cd ../.. --> two steps back
+every system has a man command which tells information about the command to 
+access the information we need write man commandName;
+ls we can give the additional information like -l, etc these are called flags.
+the ls -1 command gives information about the files, the ls -b command gives
+information about the hidden files we can also write both information 
+with "ls -1b"
+rm rmdir rm -rf to remove files and folders
+
+////////////////// git and github //////////////
+
+git is a free and  open source version control system.
+where it helps us to track changes in our code.
+it is a opensource that means it is avilable to everyone to make 
+changes in the main code of git .
+many companys uses the git and it helps to collabrate with our team mates it helps us to see 
+who written the which line and who wrote all the code in team and what changes made in the code;
+who changed the code.
+track changes means we have written some code and we made changes in the code we can go to 
+the back code and delete unnecessary code using git
+
+github is a website where we host respiratories or repos(folders/projects) online
+we can post the projects in the github 
+
+
+readme is a file which has the information about our file like which language you used and about
+the project and the good practice is to create a readme file 
+it is saved with md name extension means mark down
+
+comit means we changed something in the git
+we can add means change but the commit means the saving the changes. that means we write a letter 
+it is called change and we made a stamp is called commit
+
+we use git in the terminal becuase when we use the terminal for git we can learn about the 
+terminal easily there are different ways and like vscode and gui but the terminal is popular it is
+faster than others and also we can make the complex items in terminal 
+
+
+git config --global user.name"My name";
+git config --global user.email"someemail";
+the above configure options means by which name do we want to make changes in the files
+there is option local also in the place global . global means it uses the same name throughout 
+the computer/system.
+there is a command git config --list. it(the command) lists all the username email 
+we can get the git hub files into our device using the git clone command the github has some links on that 
+links the http link are best for the beginners.
+when we make changes in a github readme files in a vscode . the vscode tells us to commit the changes
+in the github properly. the clone command makes the copy of the files.
+
+git status
+ it  is a command which is used to get the status of the files.
+ there is a life cycle for the files . first the files are untracked that means the files which are not in 
+ git. to track the changes save the file in git and then the file is unmodified . if we make any changes 
+ then it is modified. if we save the changes then it is staged. then the changes are commited after the staged;
+
+commit is a two step process.first we need to add the file and then we need to commit the
+changes . currently we are in working directory if we add the files then the files goes into stagged
+then we commit the changes to add all the changes the we will write "git add ." command or we can write
+"git add filename" . if we want to commit the changes then we write "git commit -m 'some valid information about 
+the files' ". then if we write the status we will get all are commited.
+git push origin main ; origin means the file origin 
+
+
+if we want to add new folder in our local computer we first go into the folder using terminal and run command
+named git init it will add the folder into git .
+if we want to add a new folder into the git we need to create the repository in the 
+github then we need to paste the link of that repository
